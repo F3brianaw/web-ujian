@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak Kami - Arlin Busana</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .BarisKontak {
+            display: flex;
+            gap: 40px;
+        }
+        .InfoKontak {
+            flex: 1;
+        }
+        .FormulirPesan {
+            flex: 1.2;
+            background-color: #faf8f5;
+            padding: 35px;
+            border-radius: 20px;
+            border: 1px solid #eee5dc;
+        }
+        .KelompokInput {
+            margin-bottom: 18px;
+        }
+        .KelompokInput label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #4a4a4a;
+        }
+        .KotakInput {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d6ccc2;
+            border-radius: 20px;
+            font-size: 15px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="WadahUtama">
+
+    <!-- Navigasi -->
+    <div class="BarisNavigasi">
+        <a href="beranda.html" class="LogoTeks">ARLIN BUSANA</a>
+        <div class="MenuNavigasi">
+            <a href="beranda.html" class="TautanMenu">Beranda</a>
+            <a href="tentangkami.html" class="TautanMenu">Tentang Kami</a>
+            <a href="galeri.html" class="TautanMenu">Galeri</a>
+            <a href="kontak.html" class="TautanMenu MenuAktif">Kontak</a>
+        </div>
+    </div>
+
+    <!-- Konten Kontak & Form -->
+    <div class="KotakKonten">
+        <h1 class="JudulBagian">Hubungi Arlin Busana</h1>
+        <p class="SubJudul">Silakan datang langsung ke lokasi kami atau kirimkan detail pesanan jahitan melalui formulir di bawah ini.</p>
+
+        <div class="BarisKontak">
+            <!-- Kolom Informasi -->
+            <div class="InfoKontak">
+                <div class="KartuItem" style="margin-bottom: 20px;">
+                    <h3>Lokasi Tempat Jahit</h3>
+                    <p>Kabupaten Banyuwangi, Jawa Timur</p>
+                </div>
+
+                <div class="KartuItem" style="margin-bottom: 20px;">
+                    <h3>Telepon & Email</h3>
+                    <p>Telepon / WA: 8123456789</p>
+                    <p>Email: arlinbusana@gmail.com</p>
+                </div>
+
+                <div class="KartuItem">
+                    <h3>Ikuti Sosial Media Kami</h3>
+                    <p style="margin-bottom: 10px;">Lihat aktivitas jahit dan hubungi kami secara langsung:</p>
+                    <a href="https://wa.me/628123456789" class="TautanSosmed">WhatsApp</a>
+                    <a href="https://instagram.com/arlinbusana_bwi" class="TautanSosmed">Instagram</a>
+                    <a href="https://youtube.com" class="TautanSosmed">YouTube</a>
+                </div>
+            </div>
+
+            <!--  Formulir -->
+            <div class="FormulirPesan">
+                <h3 style="color: #6b4423; margin-bottom: 20px;">Formulir Konsultasi & Pemesanan</h3>
+                <form action="#" method="post">
+                    <div class="KelompokInput">
+                        Nama Lengkap
+                        <input type="text" name="NamaLengkap" class="KotakInput" placeholder="Masukkan nama Anda">
+                    </div>
+
+                    <div class="KelompokInput">
+                        Nomor WhatsApp
+                        <input type="text" name="NomorTelepon" class="KotakInput" placeholder="Contoh: 08123456789" required>
+                    </div>
+
+                    <div class="KelompokInput">
+                        Jenis Layanan
+                        <select name="JenisLayanan" class="KotakInput">
+                            <option value="Vermak">Vermak Pakaian</option>
+                            <option value="Seragam">Seragam Sekolah</option>
+                            <option value="BajuLaki">Baju Laki-Laki</option>
+                            <option value="BajuWanita">Baju Wanita</option>
+                        </select>
+                    </div>
+
+                    <div class="KelompokInput">
+                        Keterangan Jahitan
+                        <textarea name="PesanDetail" rows="4" class="KotakInput" placeholder="Jelaskan model baju, jumlah pesanan, atau perkiraan waktu selesai..."></textarea>
+                    </div>
+
+                    <button type="submit" class="TombolUtama" >Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   <!-- footer -->
+    <div class="BagianBawah">
+        <div class="BarisFooter">
+            <div class="KolomFooter">
+                <h4>ARLIN BUSANA</h4>
+                <p>Jasa penjahit profesional untuk kebutuhan pakaian pria, wanita, vermak, dan seragam sekolah.</p>
+            </div>
+            <div class="KolomFooter">
+                <h4>Info Kontak</h4>
+                <p>Lokasi: Banyuwangi, Jawa Timur</p>
+                <p>Email: arlinbusana@gmail.com</p>
+                <p>Telepon: 8123456789</p>
+            </div>
+            <div class="KolomFooter">
+                <h4>Media Sosial</h4>
+                <a href="https://wa.me/628123456789" class="TautanSosmed">WhatsApp</a>
+                <a href="https://instagram.com/arlinbusana_bwi" class="TautanSosmed">Instagram</a>
+                <a href="https://youtube.com" class="TautanSosmed">YouTube</a>
+            </div>
+        </div>
+        <div class="HakCipta">
+            Hak Cipta &copy; 2026 Arlin Busana Banyuwangi. Seluruh Hak Dilindungi.
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

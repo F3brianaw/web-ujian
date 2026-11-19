@@ -1,0 +1,184 @@
+/* Pengaturan Dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #faf8f5;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Wadah Utama  uk 1440px dengan Margin Kanan Kiri 80px */
+.WadahUtama {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* Navigasi Atas */
+.BarisNavigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.LogoTeks {
+    font-size: 26px;
+    font-weight: bold;
+    color: #6b4423;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.MenuNavigasi {
+    display: flex;
+    gap: 15px;
+}
+
+.TautanMenu {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 600;
+    padding: 10px 22px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Efek Hover Navbar */
+.TautanMenu:hover {
+    background-color: #6b4423;
+    color: #ffffff;
+}
+
+.MenuAktif {
+    background-color: #f0e6dc;
+    color: #6b4423;
+}
+
+/* Kotak Konten Umum */
+.KotakKonten {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.JudulBagian {
+    font-size: 28px;
+    color: #6b4423;
+    margin-bottom: 10px;
+}
+
+.SubJudul {
+    color: #777777;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+/* Tata Letak Grid 4 Kolom & 3 Kolom */
+.BarisEmpatKolom {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.BarisTigaKolom {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.KartuItem {
+    background-color: #faf8f5;
+    border-radius: 20px;
+    padding: 25px;
+    flex: 1;
+    border: 1px solid #eee5dc;
+}
+
+.KartuItem h3 {
+    color: #6b4423;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Tombol */
+.TombolUtama {
+    display: inline-block;
+    background-color: #6b4423;
+    color: #ffffff;
+    padding: 14px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.TombolUtama:hover {
+    background-color: #523319;
+}
+
+/* Bagian Kaki / Footer */
+.BagianBawah {
+    background-color: #2c221e;
+    color: #f5efe6;
+    border-radius: 20px;
+    padding: 40px 50px;
+    margin-bottom: 30px;
+}
+
+.BarisFooter {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.KolomFooter {
+    flex: 1;
+}
+
+.KolomFooter h4 {
+    color: #d4a373;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.TautanSosmed {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #6b4423;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.TautanSosmed:hover {
+    background-color: #d4a373;
+    color: #2c221e;
+}
+
+.HakCipta {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #473832;
+    text-align: center;
+    font-size: 14px;
+    color: #b5a89f;
+}
